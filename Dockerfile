@@ -5,10 +5,12 @@ RUN apt-get update && apt-get install -y npm nodejs
 RUN mkdir -p /workdir/config
 RUN mkdir -p /workdir/content
 RUN mkdir -p /workdir/themes
+RUN mkdir -p /workdir/static
 
 COPY config /workdir/config
 COPY content /workdir/content
 COPY themes /workdir/themes
+COPY static /workdir/static
 
 RUN cd /workdir/themes/nulltrace && npm i
 WORKDIR /workdir/
