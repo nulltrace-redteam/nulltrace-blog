@@ -1,3 +1,4 @@
+baseURL: 'https://blogs.nulltrace.in/'
 title: NullTrace Blog
 author: ["codacker"]
 languageCode: en
@@ -25,6 +26,7 @@ privacy:
   youtube:
     disabled: false
     privacyEnhanced: true
+
 services:
   instagram:
     disableInlineCSS: true
