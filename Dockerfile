@@ -20,3 +20,4 @@ RUN ~/go/bin/hugo
 FROM nginx:latest
 
 COPY --from=builder /workdir/public /usr/share/nginx/html
+RUN chmod 755 -R /usr/share/nginx/html
