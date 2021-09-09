@@ -1,0 +1,33 @@
+baseURL: 'https://blogs.nulltrace.in/'
+title: NullTrace Blog
+author: ["codacker"]
+languageCode: en
+DefaultContentLanguage: en
+enableInlineShortcodes: true
+theme: nulltrace
+enableRobotsTXT: true
+
+taxonomies:
+  category: categories
+  tag: tags
+  archive: archives
+
+privacy:
+  vimeo:
+    disabled: false
+    simple: true
+  twitter:
+    disabled: false
+    enableDNT: true
+    simple: true
+  instagram:
+    disabled: false
+    simple: true
+  youtube:
+    disabled: false
+    privacyEnhanced: true
+services:
+  instagram:
+    disableInlineCSS: true
+  twitter:
+    disableInlineCSS: true

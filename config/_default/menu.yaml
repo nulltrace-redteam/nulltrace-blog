@@ -1,0 +1,13 @@
+main:
+  - identifier: home
+    name: Home
+    url: https://nulltrace.in/
+    weight: 1
+  - identifier: about
+    name: About
+    url: https://nulltrace.in/about
+    weight: 2
+  - identifier: contact
+    name: Contact
+    url: https://nulltrace.in/contact
+    weight: 3

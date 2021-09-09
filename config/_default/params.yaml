@@ -1,0 +1,19 @@
+base_color: bg-gray-800
+paginator_pages: '10'
+archive_dropdown: 'false'
+tagsLimit: 20
+darkmode: light
+post:
+  thumbnail: true
+  noimage: true
+  thumbnail_height: h-44
+  thumbnail_width: w-auto
+  description: '130'
+widgets:
+  display: true
+  widgets:
+    - search
+    - archive
+    - category
+    - tags
+    - recent
