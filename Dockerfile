@@ -11,12 +11,12 @@ COPY config /workdir/config
 COPY content /workdir/content
 COPY themes /workdir/themes
 COPY static /workdir/static
+COPY ./package.json ./package-lock.json /workdir/
 
-RUN cd /workdir/themes/nulltrace && npm i
 WORKDIR /workdir/
+RUN npm install
 
 ENV NODE_ENV="production hugo"
-ENV HUGO_ENVIRONMENT="production"
 
 RUN ~/go/bin/hugo
 
