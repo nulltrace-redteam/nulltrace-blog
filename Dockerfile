@@ -1,5 +1,6 @@
 FROM ubuntu:rolling as builder
 
+ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && apt-get install -y npm nodejs hugo
 
 RUN mkdir -p /workdir/config
