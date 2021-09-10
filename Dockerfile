@@ -16,6 +16,7 @@ RUN cd /workdir/themes/nulltrace && npm i
 WORKDIR /workdir/
 
 ENV NODE_ENV="production hugo"
+ENV HUGO_ENVIRONMENT="production"
 
 RUN ~/go/bin/hugo
 
