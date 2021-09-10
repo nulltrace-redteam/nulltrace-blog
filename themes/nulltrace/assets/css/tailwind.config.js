@@ -21,7 +21,7 @@ module.exports = {
           800: '#1e2022',
           900: '#181a1b',
         },
-        'nulltrace':'#202020'
+        'nulltrace':'#202020',
       }
     },
   },
