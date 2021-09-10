@@ -1,4 +1,4 @@
-FROM ubuntu:rolling
+FROM ubuntu:rolling as builder
 
 RUN apt-get update && apt-get install -y npm nodejs hugo
 
