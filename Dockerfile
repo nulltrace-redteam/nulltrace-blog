@@ -22,7 +22,8 @@ postcss-import \
 @fullhuman/postcss-purgecss \
 @tailwindcss/typography \
 postcss \
-tailwindcss
+tailwindcss \
+purgecss
 
 ENV NODE_ENV="production hugo"
 
