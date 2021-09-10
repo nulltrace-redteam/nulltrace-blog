@@ -22,7 +22,11 @@ module.exports = {
           900: '#181a1b',
         },
         'nulltrace':'#323232',
-      }
+      },
+      backgroundImage: {
+        'mobile': "url('/img/mobile_bg.jpg')",
+        'desktop': "url('/img/bg.jpg')",
+       }
     },
   },
   variants: {},
