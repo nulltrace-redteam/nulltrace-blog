@@ -1,6 +1,6 @@
-FROM mishrasunny174/hugo-builder as builder
+FROM ubuntu:rolling
 
-RUN apt-get update && apt-get install -y npm nodejs
+RUN apt-get update && apt-get install -y npm nodejs hugo
 
 RUN mkdir -p /workdir/config
 RUN mkdir -p /workdir/content
@@ -15,19 +15,10 @@ COPY ./package.json ./package-lock.json /workdir/
 
 WORKDIR /workdir/
 RUN npm install
-RUN npm install -g \
-postcss-cli \
-autoprefixer \
-postcss-import \
-@fullhuman/postcss-purgecss \
-@tailwindcss/typography \
-postcss \
-tailwindcss \
-purgecss
 
 ENV NODE_ENV="production hugo"
 
-RUN ~/go/bin/hugo
+RUN hugo
 
 FROM nginx:latest
 
