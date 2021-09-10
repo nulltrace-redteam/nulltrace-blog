@@ -1,2 +1,2 @@
 # nulltrace-blog
-Hugo powered blog for nulltrace
+Hugo powered blog for https://blog.nulltrace.in
