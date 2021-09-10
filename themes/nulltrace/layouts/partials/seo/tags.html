@@ -1,4 +1,5 @@
 {{- $seo := .seo -}}
+
 <meta name="description" content="{{ $seo.description }}">
 <meta property="og:site_name" content="{{ $seo.site_name }}">
 <meta property="og:description" content="{{ $seo.description }}">
@@ -7,6 +8,7 @@
 <meta property="og:locale" content="{{ $seo.locale }}">
 <meta name="twitter:card" content="{{ $seo.twitter_card }}">
 <meta name="twitter:site" content="{{ .Site.Params.twitter_user }}">
+
 {{ with $seo.canonical }}
 <link rel="canonical" href="{{ . }}">
 {{ end }}
@@ -15,3 +17,15 @@
 {{- with $seo.updated_time }}
 <meta property="article:updated_time" content="{{- $seo.updated_time }}">
 {{- end }}
+
+{{ with .Params.image }} 
+  <meta itemprop="image" content="{{ . | absURL }}" />
+  <meta property="og:image" content="{{ . | absURL }}" /> 
+  <meta name="twitter:image" content="{{ . | absURL }}" />
+  <meta name="twitter:image:src" content="{{ . | absURL }}" /> 
+{{ else }}
+  <meta itemprop="image" content="{{ .Site.Params.ogimage | absURL }}" />
+  <meta property="og:image" content="{{ .Site.Params.ogimage | absURL }}" />
+  <meta name="twitter:image" content="{{ .Site.Params.ogimage | absURL }}" />
+  <meta name="twitter:image:src" content="{{ .Site.Params.ogimage | absURL }}" /> 
+{{ end }}
