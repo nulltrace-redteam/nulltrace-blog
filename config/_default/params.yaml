@@ -1,4 +1,4 @@
-base_color: bg-nulltrace
+base_color: bg-gray-900
 paginator_pages: '10'
 archive_dropdown: 'false'
 tagsLimit: 20
