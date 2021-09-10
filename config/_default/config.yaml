@@ -7,6 +7,7 @@ enableInlineShortcodes: true
 theme: nulltrace
 enableRobotsTXT: true
 GoogleAnalytics: UA-195222940-2
+enableGitInfo: true
 
 taxonomies:
   category: categories
@@ -33,8 +34,6 @@ services:
     disableInlineCSS: true
   twitter:
     disableInlineCSS: true
-
-
 
 minify:
   disableCSS: false
