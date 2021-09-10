@@ -13,7 +13,15 @@
                 <aside id="meta">
                     <div>
                         <section>
-                            <h4 id="date"><span class="icon-access_time mr-2"></span>{{ .Page.Lastmod.Local.Format "01/02/2006 15:04:05" }}
+                            <h4>
+                                <span class="icon-person mr-2"></span>
+                                {{ .Params.author }}
+                            </h4>
+                        </section>
+                        <section>
+                            <h4 id="date">
+                                <span class="icon-access_time mr-2"></span>
+                                {{ .Page.Lastmod.Local.Format "01/02/2006" }}
                             </h4>
                         </section>
                         {{ with .Params.tags }}

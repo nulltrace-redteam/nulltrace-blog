@@ -12,7 +12,8 @@
             <div class="text-gray-900 font-bold text-xl mb-2 dark:text-white">{{ .Title }}</div>
             <p class="text-gray-700 text-base pb-5 dark:text-gray-300">{{ substr .Summary 0 130 | plainify | htmlUnescape }}...</p>
             <p class="text-sm text-gray-600 absolute items-center right-0 bottom-0 dark:text-gray-400">
-                <time><span class="icon-access_time mr-1"></span>{{ .Page.Lastmod.Local.Format "01/02/2006 15:04:05" }}</time>
+                <span class="mr-2"><span class="icon-person mr-2"></span>{{ .Params.author }}</span>
+                <time><span class="icon-access_time mr-1"></span>{{ .Page.Lastmod.Local.Format "01/02/2006" }}</time>
             </p>
     </div>
 </div>

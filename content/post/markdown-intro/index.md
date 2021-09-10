@@ -1,7 +1,7 @@
 ---
 author: codacker
 title: Markdown Syntax Guide
-date: 2021-08-09
+
 description: >-
   Sample article showcasing basic Markdown syntax and formatting for HTML
   elements.
