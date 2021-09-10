@@ -19,4 +19,4 @@ widgets:
     - recent
 sharing: true
 addthis_token: ra-613a62d4b8f1bc89
-ogimage: https://storage.googleapis.com/nulltrace-static/images/nulltrace_logo_red.png
+og_image: https://storage.googleapis.com/nulltrace-static/images/nulltrace_logo_red.png
