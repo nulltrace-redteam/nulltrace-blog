@@ -15,7 +15,7 @@ COPY ./package.json ./package-lock.json /workdir/
 
 WORKDIR /workdir/
 RUN npm install
-RUN npm install -g postcss-cli autoprefixer
+RUN npm install -g postcss-cli autoprefixer postcss-import
 
 ENV NODE_ENV="production hugo"
 
