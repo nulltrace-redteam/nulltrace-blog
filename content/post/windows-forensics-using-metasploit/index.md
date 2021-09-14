@@ -33,7 +33,7 @@ The blog assumes you have a meterpreter on the system and full system access. I 
 
 We need to know the drives and devices mounted on the target system to enable us to know which one we are going to recover the deleted files from. For this, we run a post-module called **enum_drives** in the Metasploit post forensics folder.
 
-First, we need to background our session using **background** command in the meterpreter console. We can later get back to the meterpreter by using **sessions -i <meterpreter id>** where <meterpreter id> is the id of our background meterpreter.
+First, we need to background our session using **background** command in the meterpreter console. We can later get back to the meterpreter by using **sessions -i &lt;meterpreter id&gt;** where &lt;meterpreter id&gt; is the id of our background meterpreter.
 
 And then use the post-module
 
