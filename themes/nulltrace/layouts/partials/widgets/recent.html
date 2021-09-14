@@ -4,7 +4,7 @@
 <div class="bg-white panel mb-3 pb-5 dark:bg-warmgray-900 opacity-90">
     <p class="text-xl text-center text-gray-700 py-5 dark:text-gray-300">Recent Posts</p>
     <div class="mx-6">
-        {{ range $relatedPosts }}
+        {{ range $relatedPosts.ByDate.Reverse }}
         <a href="{{ .RelPermalink }}" class="">
             <div class="w-full block mt-3 bg-white hover:bg-gray-100 duration-200 dark:bg-warmgray-900 dark:text-gray-200 dark:hover:bg-warmgray-800">
                 <div class="px-2">
