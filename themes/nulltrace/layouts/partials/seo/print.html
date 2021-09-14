@@ -77,11 +77,14 @@
 {{ end }}
 
 {{ if .Params.image }}
-    {{ with .Params.image }}
+{{ with .Params.image }}
 <meta property="og:image" content="{{ . | absURL }}">
 <meta property="og:image:url" content="{{ . | absURL }}">
-    {{ end }}
-{{ else }}
+{{ end }}
+{{ else if .IsHome }}
 <meta property="og:image" content="{{ .Site.Params.og_image | absURL }}">
 <meta property="og:image:url" content="{{ .Site.Params.og_image | absURL }}">
+{{ else }}
+<meta property="og:image" content="{{ "/img/default.jpg" | absURL }}">
+<meta property="og:image:url" content="{{ "/img/default.jpg" | absURL }}">
 {{ end }}
