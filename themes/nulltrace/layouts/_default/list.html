@@ -14,7 +14,7 @@
     {{.Scratch.Set "Paginator" .Paginator}}
     {{end}}
     {{$paginator:=(.Scratch.Get "Paginator")}}
-    {{ range $paginator.Pages }}
+    {{ range $paginator.Pages.ByDate.Reverse }}
     <a href="{{.RelPermalink}}">
       {{ .Render "summary" }}
     </a>
