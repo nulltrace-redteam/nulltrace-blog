@@ -1,7 +1,6 @@
 ---
 author: Bhavye Malhotra
 title: Windows Forensics Using Metasploit
-![Windows writeup](./img/Windows_Forensics_Using_Metasploit-01.png)
 
 
 description: >-
@@ -15,6 +14,7 @@ categories:
   - Forensics
 archives:
   - 09/2021
+image: /img/Windows_Forensics_Using_Metasploit-01.png
 ---
 
 ## Introduction
