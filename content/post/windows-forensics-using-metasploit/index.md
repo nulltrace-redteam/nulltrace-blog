@@ -1,6 +1,9 @@
 ---
 author: Bhavye Malhotra
 title: Windows Forensics Using Metasploit
+Windows_Forensics_Using_Metasploit-01.png
+![Windows writeup](./img/Windows_Forensics_Using_Metasploit-01.png)
+
 
 description: >-
   Sample article showcasing basic Markdown syntax and formatting for HTML
