@@ -3,9 +3,7 @@ author: Bhavye Malhotra
 title: Windows Forensics Using Metasploit
 
 
-description: >-
-  Sample article showcasing basic Markdown syntax and formatting for HTML
-  elements.
+description: Blog post demonstrating the use of metasploit in forensics.
 tags:
   - metasploit
   - windows
