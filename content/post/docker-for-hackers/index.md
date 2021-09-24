@@ -11,7 +11,7 @@ categories:
   - Misc
 archives:
   - 09/2021
-# image: /img/Windows_Forensics_Using_Metasploit-01.png
+image: /img/docker_for_hackers-01.jpg
 ---
 
 ## What is Docker?
