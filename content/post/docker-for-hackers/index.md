@@ -2,6 +2,7 @@
 author: Vanshika Gupta
 title: Docker for hackers
 description: Blog post explaining the use of docker for hacking.
+date: "2021-09-24T00:00:00Z"
 tags:
   - docker
   - kali

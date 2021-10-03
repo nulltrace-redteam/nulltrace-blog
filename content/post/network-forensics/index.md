@@ -1,7 +1,7 @@
 ---
 author: Bhavye Malhotra
 title: Network Forensics
-
+date: "2021-10-03T00:00:00Z"
 
 description: Blog post explaining various methods of network forensics
 tags:

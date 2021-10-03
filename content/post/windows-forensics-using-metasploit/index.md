@@ -1,7 +1,7 @@
 ---
 author: Bhavye Malhotra
 title: Windows Forensics Using Metasploit
-
+date: "2021-09-22T00:00:00Z"
 
 description: Blog post demonstrating the use of metasploit in forensics.
 tags:
