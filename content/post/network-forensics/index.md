@@ -12,7 +12,7 @@ categories:
   - Forensics
 archives:
   - 10/2021
-# image: /img/Windows_Forensics_Using_Metasploit-01.png
+image: /img/network-forensics.png
 ---
 
 ## What is Network Forensics?
