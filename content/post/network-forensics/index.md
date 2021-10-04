@@ -15,9 +15,11 @@ archives:
 image: /img/network-forensics.png
 ---
 
-[![](images/0.png)](https://nctf.nulltrace.in/)
-
 ## What is Network Forensics?
+
+{{< rawhtml >}}
+  <a href="https://nctf.nulltrace.in" target="_blank"><img src="images/0.png"></a>
+{{< /rawhtml >}}
 
 This branch of digital forensics basically deals with the monitoring and analysis of a computer network. This is mainly for the purpose of information gathering, legal evidence, or intrusion detection. Network forensics generally has two uses. The first, relating to security, involves monitoring a network for anomalous traffic and identifying intrusions.&nbsp;
 
