@@ -17,10 +17,6 @@ image: /img/network-forensics.png
 
 ## What is Network Forensics?
 
-{{< rawhtml >}}
-  <a href="https://nctf.nulltrace.in" target="_blank"><img src="images/0.png"></a>
-{{< /rawhtml >}}
-
 This branch of digital forensics basically deals with the monitoring and analysis of a computer network. This is mainly for the purpose of information gathering, legal evidence, or intrusion detection. Network forensics generally has two uses. The first, relating to security, involves monitoring a network for anomalous traffic and identifying intrusions.&nbsp;
 
 ## Why do we need Network Forensics?
@@ -78,6 +74,10 @@ For doing so go to: <strong>File&gt;&gt;Export Objects&gt;&gt; HTTP</strong>
 This a list of all multimedia files transferred in this stream of HTTP packets. By saving this image and opening we get the flag as the image.
 
 ![](images/4.png)
+
+{{< rawhtml >}}
+  <a href="https://nulltrace.in/products/nctf" target="_blank"><img src="images/0.png"></a>
+{{< /rawhtml >}}
 
 ## Basic Tshark Usage
 
