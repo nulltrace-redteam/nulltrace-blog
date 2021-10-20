@@ -10,7 +10,7 @@ categories:
   - Misc
 archives:
   - 10/2021
-image: /img/scapy-512-01.jpg
+image: /img/scapy.jpg
 ---
 ## Getting started with Scapy
 
