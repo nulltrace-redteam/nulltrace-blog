@@ -10,9 +10,8 @@ categories:
   - Misc
 archives:
   - 10/2021
-# image: /img/docker_for_hackers-01.jpg
+image: /img/scapy-512-01.jpg
 ---
-
 ## Getting started with Scapy
 
 Scapy is a powerful **Python-based** interactive **packet manipulation** program and library. It was originally written by Philippe Biondi.
